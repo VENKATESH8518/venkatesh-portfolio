@@ -233,98 +233,37 @@ section{
 /* ==========================================
    SOCIAL ICONS
 ========================================== */
-
-/* ==========================================
-   SOCIAL ICONS
-========================================== */
-
 .social-icons{
-
-    display:flex;
-
-    gap:25px;
-
-    margin-top:35px;
-
+    display: flex;
+    justify-content: center;   /* Center horizontally */
+    align-items: center;
+    gap: 25px;
+    margin-top: 35px;
+    width: 100%;
 }
-
 
 .social-icons a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
-    width:60px;
+    width: 60px;
+    height: 60px;
 
-    height:60px;
+    border-radius: 50%;
+    background: #1e293b;
+    color: #0dcaf0;
+    font-size: 28px;
+    text-decoration: none;
 
-    display:flex;
-
-    justify-content:center;
-
-    align-items:center;
-
-    border-radius:50%;
-
-    background:#1e293b;
-
-    color:#0dcaf0;
-
-    font-size:30px;
-
-    text-decoration:none;
-
-    transition:0.4s;
-
+    transition: 0.3s ease;
 }
-
 
 .social-icons a:hover{
-
-    transform:translateY(-10px) scale(1.1);
-
-    background:#0dcaf0;
-
-    color:#000;
-
-    box-shadow:0 0 25px #0dcaf0;
-
-}
-
-
-/* Individual Icon Colors */
-
-.social-icons .fa-linkedin{
-
-    color:#0A66C2;
-
-}
-
-
-.social-icons .fa-github{
-
-    color:#ffffff;
-
-}
-
-
-.social-icons .fa-envelope{
-
-    color:#facc15;
-
-}
-
-
-.social-icons .fa-phone{
-
-    color:#22c55e;
-
-}
-
-
-/* Hover icon color */
-
-.social-icons a:hover i{
-
-    color:#000;
-
+    background: #0dcaf0;
+    color: #000;
+    transform: translateY(-8px);
+    box-shadow: 0 0 20px #0dcaf0;
 }
 
 /* ==========================================
@@ -1320,4 +1259,4 @@ SMOOTH TRANSITIONS
 
 transition:all .3s ease;
 
-}
+}   
