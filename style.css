@@ -234,25 +234,32 @@ section{
    SOCIAL ICONS
 ========================================== */
 
+/* ==========================================
+   SOCIAL ICONS
+========================================== */
+
 .social-icons{
+
+    display:flex;
+
+    gap:25px;
 
     margin-top:35px;
 
 }
 
+
 .social-icons a{
 
-    display:inline-flex;
+    width:60px;
+
+    height:60px;
+
+    display:flex;
 
     justify-content:center;
 
     align-items:center;
-
-    width:50px;
-
-    height:50px;
-
-    margin-right:15px;
 
     border-radius:50%;
 
@@ -260,21 +267,63 @@ section{
 
     color:#0dcaf0;
 
-    font-size:22px;
+    font-size:30px;
 
     text-decoration:none;
 
-    transition:.3s;
+    transition:0.4s;
 
 }
 
+
 .social-icons a:hover{
+
+    transform:translateY(-10px) scale(1.1);
 
     background:#0dcaf0;
 
     color:#000;
 
-    transform:translateY(-5px);
+    box-shadow:0 0 25px #0dcaf0;
+
+}
+
+
+/* Individual Icon Colors */
+
+.social-icons .fa-linkedin{
+
+    color:#0A66C2;
+
+}
+
+
+.social-icons .fa-github{
+
+    color:#ffffff;
+
+}
+
+
+.social-icons .fa-envelope{
+
+    color:#facc15;
+
+}
+
+
+.social-icons .fa-phone{
+
+    color:#22c55e;
+
+}
+
+
+/* Hover icon color */
+
+.social-icons a:hover i{
+
+    color:#000;
 
 }
 
